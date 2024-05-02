@@ -89,12 +89,8 @@ const athletes = [  {
     country: "South Korea",
   },
 ];
-const FemaleAthletes = [];
+const AthletesNames = [];
 
 for (let i = 0; i < athletes.length; i++) {
-if (athletes[i].totalMedals >= 10) {
-    FemaleAthletes.push(athletes[i]);
+    console.log(athletes[i]);
 }
-}
-console.log(athletes);
-console.log(FemaleAthletes);
