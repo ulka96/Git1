@@ -89,12 +89,12 @@ const athletes = [  {
     country: "South Korea",
   },
 ];
-const athleteswithWorldRecord = [];
+const FemaleAthletes = [];
 
 for (let i = 0; i < athletes.length; i++) {
-if (athletes[i].hasWorldRecord === true) {
-    athleteswithWorldRecord.push(athletes[i]);
+if (athletes[i].totalMedals >= 10) {
+    FemaleAthletes.push(athletes[i]);
 }
 }
 console.log(athletes);
-console.log(athleteswithWorldRecord);
+console.log(FemaleAthletes);
